@@ -1,3 +1,82 @@
-h1{
-	font-size: 16px;
+body {
+	font-size: 20px;
+	background-color: white;
+	font-family: sans-serif;
 }
+
+#header-nav {
+	background-color: grey ;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+button .navbar-toggler-icon{
+	font-weight: bold;
+}
+h1 {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 35px;
+}
+
+.box{
+	background-color: darkgrey;
+	box-sizing: content-box;
+	padding: 10px;
+	margin: 20px;
+}
+
+.content-name{
+  text-align: center;
+  font-weight: bold;
+  padding: 0px 0px 5px 0px;
+  margin: 0px;
+  position: relative;
+}
+
+.content{
+  width: 100%;
+  height: auto;
+  color: black;
+  padding: 0px 10px 0px 10px;
+  margin: 0px;
+
+}
+
+
+.navbar-brand {
+	margin-left: 20px;
+	font-size: 35px;
+}
+
+@media (min-width: 992px) {
+	.display{
+		display: none;
+	}
+}
+	
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.display{
+		display: none;
+	}
+	
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+	.display{
+		display: visible;
+	}
+	ul{
+	background-color: white;
+     }
+    li{
+	border: 2px solid black;
+     }
+}
+
+
